@@ -147,6 +147,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Production.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Production.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Compiler Design.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GrammarList.txt" />
+    <Text Include="ItemList.txt" />
+    <Text Include="nonTerminalList.txt" />
+    <Text Include="sample1.txt" />
+    <Text Include="sample2.txt" />
+    <Text Include="terminalList.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
