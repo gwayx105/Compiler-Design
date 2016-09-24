@@ -56,7 +56,7 @@ void Production::First(std::string lhs[],std::string rhs[]) {
 						//system("pause");
 						//continue;
 					}
-					
+			
 					temp = rhs[i];
 				}
 				
