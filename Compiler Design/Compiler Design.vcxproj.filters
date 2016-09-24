@@ -43,4 +43,7 @@
     <Text Include="nonTerminalList.txt" />
     <Text Include="GrammarList.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>
